@@ -10,7 +10,7 @@ class Post extends Model
 {
     use HasFactory;
 
-    public $filable = ['title', 'author', 'body'];
+    public $filable = ['title', 'user', 'body'];
 
     public static $rules = [
         'title' => 'required',
